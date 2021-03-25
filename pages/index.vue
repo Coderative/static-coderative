@@ -1,8 +1,13 @@
 <template>
-  <div class="container">
-    <div>
-      <h1 class="title">static-coderative</h1>
-      <div class="links">
+  <section class="container h-screen w-full bg-yellow">
+    <div class="flex flex-col justify-between">
+      <h1 class="font-karla uppercase text-9xl font-bold">Coderative</h1>
+      <div class="my-24 text-6xl font-inconsolata">
+        <span>Nous sommes un collectif de développeurs, </span>
+        <br />
+        <span>designers et d’entrepreneurs expérimentés.</span>
+      </div>
+      <!-- <div class="font-incosolata">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
@@ -19,9 +24,9 @@
         >
           GitHub
         </a>
-      </div>
+      </div> -->
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -29,12 +34,12 @@ export default {}
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
+/* Sample `apply` at-rules with Tailwind CSS */
 .container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
+  @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
-*/
-.container {
+
+/* .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -63,5 +68,5 @@ export default {}
 
 .links {
   padding-top: 15px;
-}
+} */
 </style>

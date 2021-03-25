@@ -16,6 +16,22 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  webfontloader: {
+    // add Google Fonts as "custom" | workaround required
+    custom: {
+      families: [
+        'Karla:n7',
+        'Incosolata:n4'
+      ],
+      urls: [
+        // for each Google Fonts add url + options you want
+        // here add font-display option
+        'https://fonts.googleapis.com/css?family=Karla:700&display=swap',
+        'https://fonts.googleapis.com/css?family=Incosolata:400&display=swap'
+      ]
+    }
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
@@ -36,7 +52,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['nuxt-webfontloader'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
