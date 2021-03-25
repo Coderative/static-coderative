@@ -4,14 +4,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'static-coderative',
+    title: 'Codérative, le site officiel du collectif',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'fr',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Codérative - Nous sommes un collectif de développeurs, de designers et d’entrepreneurs expérimentés.' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
