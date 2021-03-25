@@ -21,13 +21,13 @@ export default {
     custom: {
       families: [
         'Karla:n7',
-        'Incosolata:n4'
+        'Inconsolata:n4'
       ],
       urls: [
         // for each Google Fonts add url + options you want
         // here add font-display option
         'https://fonts.googleapis.com/css?family=Karla:700&display=swap',
-        'https://fonts.googleapis.com/css?family=Incosolata:400&display=swap'
+        'https://fonts.googleapis.com/css?family=Inconsolata:400&display=swap'
       ]
     }
   },
