@@ -14,6 +14,18 @@ module.exports = {
       'black': '#000000',
       'blue': '#3959FF'
     }),
+    textColor: theme => ({
+      ...theme('colors'),
+      'yellow': '#FFEB3A',
+      'black': '#000000',
+      'blue': '#3959FF'
+    }),
+    ringColor: theme => ({
+      ...theme('colors'),
+      'yellow': '#FFEB3A',
+      'black': '#000000',
+      'blue': '#3959FF'
+    }),
     fontFamily: {
       'karla': ['Karla', 'sans-serif'],
       'inconsolata': ['Inconsolata', 'mono'],
@@ -22,7 +34,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      ringColor: ['hover', 'focus'],
+      ringWidth: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }

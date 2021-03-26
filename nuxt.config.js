@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Codérative, le site officiel du collectif',
+    title: 'Codérative, site du collectif',
     htmlAttrs: {
       lang: 'fr',
     },
@@ -21,13 +21,13 @@ export default {
     custom: {
       families: [
         'Karla:n7',
-        'Inconsolata:n4'
+        'Inconsolata:n4,n7'
       ],
       urls: [
         // for each Google Fonts add url + options you want
         // here add font-display option
         'https://fonts.googleapis.com/css?family=Karla:700&display=swap',
-        'https://fonts.googleapis.com/css?family=Inconsolata:400&display=swap'
+        'https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap'
       ]
     }
   },
