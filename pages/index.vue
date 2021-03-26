@@ -23,7 +23,7 @@
 
     <section
       id="main-content"
-      class="w-full md:w-4/5 my-2 md:my-12 text-1xl md:text-6xl font-inconsolata font-normal"
+      class="w-full md:w-5/6 pr-4 md:pr-24 mx-4 md:mx-24 my-2 md:my-12 text-1xl md:text-5xl font-inconsolata font-normal"
     >
       <p id="paragraph-1" class="pb-2 md:pb-8">
         Nous sommes un collectif de
@@ -99,6 +99,6 @@ export default {
 
 <style>
 .contact {
-  @apply inline-flex items-center px-2 py-4 md:px-16 md:py-8 my-8 md:my-24 shadow-sm text-lg md:text-6xl uppercase font-karla font-bold text-yellow bg-black;
+  @apply inline-flex items-center px-2 py-4 md:px-12 md:py-6 my-8 md:my-24 shadow-sm text-lg md:text-5xl uppercase font-karla font-bold text-yellow bg-black;
 }
 </style>
